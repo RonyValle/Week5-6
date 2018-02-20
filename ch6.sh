@@ -32,7 +32,7 @@ systemctl list-units
 systemctl list-jobs
 
 #view Upstart jobs
-inittctl list
+initctl list
 
 #system V shutting your system down
 shutdown -h now
